@@ -13,6 +13,8 @@ uvicorn = "^0.31.1"
 django-environ = "^0.11.2"
 tortoise-orm = "^0.21.7"
 
+[tool.ruff]
+ignore = ["F401"]
 
 [build-system]
 requires = ["poetry-core"]
